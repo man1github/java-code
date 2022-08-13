@@ -1,0 +1,28 @@
+package hybrid.inher;
+
+public class Bmw5Series extends Bmw {
+	
+	public void fueleconomy() {
+		System.out.println("Bmw 5 Series fuel economy : 16 km/l");
+	}
+	
+	public void wheelpower() {
+		System.out.println("Bmw 5 Series - it gives four front wheel power");
+	}
+	
+	public void hatchbag() {
+		System.out.println("Bmw 5 Series - it has stylish hatchbag");
+	}
+	
+	public void seatcolor() {
+		System.out.println("Bmw 5 Series - it has golden brown color");
+	}
+	
+	public static void main(String[] args) {
+		Bmw5Series a = new Bmw5Series();
+		a.fueleconomy();
+		a.wheelpower();
+		a.hatchbag();
+		a.seatcolor();
+	}
+}
