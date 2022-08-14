@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+h2 {
+	font-size: 30px;
+	background: blueviolet;
+	padding: 3px;
+	font-family: Cambria;
+}
+
+label {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+#submitbutton {
+	background: cadetblue;
+}

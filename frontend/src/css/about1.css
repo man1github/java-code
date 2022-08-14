@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+h2 {
+	font-size: 30px;
+	background: blueviolet;
+	padding: 3px;
+	font-family: Cambria;
+}
+
+font {
+	font-family: arial;
+	font-size: 17px;
+}
+
+em {
+	color: brown;
+	font-style: italic;
+	font-weight: bold;
+}
